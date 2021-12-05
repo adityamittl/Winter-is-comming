@@ -37,7 +37,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'diagnose',
     'chat',
     'social_django',
     'auth0login',
@@ -80,18 +79,25 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django_cockroachdb',
-        'NAME': 'second-elk-1010.defaultdb',
-        'USER': 'aditya',
-        'PASSWORD': 'Hacker@123456',
-        'HOST': 'free-tier6.gcp-asia-southeast1.cockroachlabs.cloud',
-        'PORT': '26257',
-        'OPTIONS': {
-            'sslmode': 'verify-full',
-            'sslrootcert': BASE_DIR/'root.crt',
-        },
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django_cockroachdb',
+#         'NAME': 'second-elk-1010.defaultdb',
+#         'USER': 'aditya',
+#         'PASSWORD': 'Hacker@123456',
+#         'HOST': 'free-tier6.gcp-asia-southeast1.cockroachlabs.cloud',
+#         'PORT': '26257',
+#         'OPTIONS': {
+#             'sslmode': 'verify-full',
+#             'sslrootcert': BASE_DIR/'root.crt',
+#         },
+#     }
+# }
 
 
 # Password validation

@@ -21,3 +21,9 @@ def writeblog(request):
         data.body = request.POST.get('content')
         data.save()
         return redirect('blog')
+
+def send(request):
+    return render(request,'send.html')
+
+def dash(request):
+    return render(request,'index.html')
