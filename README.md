@@ -7,9 +7,10 @@ This homecoming season, the world is on the brink of a global pandemic. Homecomi
 ## 💻 What it does
 
 **Winter is Coming** is a video calling platform that will enable you to -
-    - **Connect**: Connect with other students in your class and share your experiences.
-    - **Share**: Share your experiences with other students in your class.
-    - **Learn**: Learn from other students in your class.   
+
+   - **Connect**: Connect with other students in your class and share your experiences.
+   - **Share**: Share your experiences with other students in your class.
+   - **Learn**: Learn from other students in your class.   
 
 It is a place where you can share your stories, experiences, and experiences with your classmates and friends.
 
