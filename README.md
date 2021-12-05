@@ -8,42 +8,42 @@ This homecoming season, the world is on the brink of a global pandemic. Homecomi
 
 **Winter is Coming** is a video calling platform that will enable you to -
 
-   - **Connect**: Connect with other students in your class and share your experiences.
-   - **Share**: Share your experiences with other students in your class.
-   - **Learn**: Learn from other students in your class.   
+- **Connect**: Connect with other students in your class and share your experiences.
+- **Share**: Share your experiences with other students in your class.
+- **Learn**: Learn from other students in your class.
 
 It is a place where you can share your stories, experiences, and experiences with your classmates and friends.
 
 ## ⚙️How we built it
+
 - Frontend: HTML, CSS, JS
 - Backend: Django
 - Database: CockroachDB
+- Linode: hosting and storage
 - Authentication: Auth0
 
-## Use of CockroachDB
+## 💾 Use of CockroachDB
 
 - We have used CockroachDB as a primary database because it is an easy-to-use, open-source and indestructible SQL database.
 
-## 🔑 Auth0
+## ☁️ Use of Linode
 
-- We have used Auth0 for secure user authentication
-
+We utilized Linode for its hosting and storage. Linode is one of the top IaaS providers and is incredibly easy to use and the free Linode credit from MLH for us to learn and build on Linode was the cherry on the cake! Linode is fast, flexible, and reliable, and we truly enjoyed using it.
 
 ## 🧠 Challenges we ran into
 
-
 ## 🏅 Accomplishments that we're proud of
-
 
 ## 📖 What we learned
 
-
-## 🚀 What's next for Winter is Coming 
+## 🚀 What's next for Winter is Coming
 
 Improving the accuracy of the model.
 
 ## Installing and Running
+
 Go to the backend folder and run
+
 ```
 pip install -r requirements.txt
 python manage.py runserver
